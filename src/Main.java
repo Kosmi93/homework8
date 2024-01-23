@@ -14,6 +14,7 @@ public class Main {
         bicycles.add(new Bicycle("bicycle2", 2));
 
         ServiceStation station = new ServiceStation();
+
         cars.forEach(station::check);
         trucks.forEach(station::check);
         bicycles.forEach(station::check);

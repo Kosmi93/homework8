@@ -1,5 +1,5 @@
 //Велосипед
-public class Bicycle extends Transport implements UpdateTyre {
+public class Bicycle extends Transport {
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }

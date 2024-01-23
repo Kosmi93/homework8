@@ -1,4 +1,4 @@
-public abstract class Transport {
+public abstract class Transport implements UpdateTyre {
     final private String modelName;
     final private int wheelsCount;
 
